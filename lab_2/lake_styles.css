@@ -1,0 +1,141 @@
+﻿body {
+  background-color: beige;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header nav {
+  background-color: #4B0082;
+  padding: 10px 20px;
+}
+
+header nav a {
+  color: #9370DB;
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  flex: 1;
+}
+
+#leftcol {
+  background-color: black;
+  color: white;
+  box-sizing: border-box;
+}
+
+#leftcol h1 {
+  font-family: "Imperial Script", cursive;
+  font-style: normal;
+  margin-top: 0;
+}
+
+#leftcol p {
+  color: white;
+}
+
+#leftcol .Note {
+  background-color: rgba(255, 182, 193, 0.8); 
+  color: white;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+#leftcol .Note ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+#leftcol .Note ul a {
+  color: palevioletred;
+  text-decoration: none;
+}
+
+#leftcol .Note ul a:hover {
+  text-decoration: underline;
+}
+
+#leftcol .Note::before {
+  color: yellow;
+  font-weight: bold;
+}
+
+#leftcol .UpcomingEvents {
+  background-color: rgba(222, 184, 135, 0.8); 
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+#rightcol {
+  background-color: #8d27d5;
+  color: white;
+  box-sizing: border-box;
+}
+
+#rightcol h2 {
+  color: white;
+  font-family: "Imperial Script", cursive;
+  font-style: normal;
+  margin-top: 0;
+}
+
+#rightcol nav {
+  background-color: #8d27d5;
+  margin: 20px 0;
+}
+
+#rightcol nav a {
+  color: #9370DB;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+}
+
+#rightcol nav a:hover {
+  text-decoration: underline;
+}
+
+#rightcol blockquote {
+  color: purple;
+  font-family: "Cormorant Garamond", serif;
+  font-style: italic;
+  font-size: 1.1em;
+  margin: 20px 0;
+  padding: 10px;
+  border-left: 4px solid purple;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#rightcol blockquote::before {
+  content: "“ ";
+  font-size: 2em;
+  color: gray;
+}
+
+#rightcol blockquote::after {
+  content: " ”";
+  font-size: 2em;
+  color: gray;
+}
+
+
+footer {
+  background-color: gray;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: auto; 
+}
